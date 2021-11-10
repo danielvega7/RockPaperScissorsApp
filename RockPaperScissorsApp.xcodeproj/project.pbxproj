@@ -17,6 +17,8 @@
 		06F68C76273B3073009AA68A /* RockPaperScissorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C75273B3073009AA68A /* RockPaperScissorsAppTests.swift */; };
 		06F68C80273B3073009AA68A /* RockPaperScissorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C7F273B3073009AA68A /* RockPaperScissorsAppUITests.swift */; };
 		06F68C82273B3073009AA68A /* RockPaperScissorsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C81273B3073009AA68A /* RockPaperScissorsAppUITestsLaunchTests.swift */; };
+		06F68C91273B383A009AA68A /* CustomCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C90273B383A009AA68A /* CustomCellClass.swift */; };
+		06F68C93273B38D1009AA68A /* ViewControllerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		06F68C7B273B3073009AA68A /* RockPaperScissorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F68C7F273B3073009AA68A /* RockPaperScissorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsAppUITests.swift; sourceTree = "<group>"; };
 		06F68C81273B3073009AA68A /* RockPaperScissorsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06F68C90273B383A009AA68A /* CustomCellClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellClass.swift; sourceTree = "<group>"; };
+		06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				06F68C5B273B306D009AA68A /* AppDelegate.swift */,
 				06F68C5D273B306D009AA68A /* SceneDelegate.swift */,
 				06F68C5F273B306D009AA68A /* ViewController.swift */,
+				06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */,
+				06F68C90273B383A009AA68A /* CustomCellClass.swift */,
 				06F68C61273B306D009AA68A /* Main.storyboard */,
 				06F68C67273B3072009AA68A /* Assets.xcassets */,
 				06F68C69273B3072009AA68A /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 				06F68C5C273B306D009AA68A /* AppDelegate.swift in Sources */,
 				06F68C66273B306D009AA68A /* RockPaperScissorsApp.xcdatamodeld in Sources */,
 				06F68C5E273B306D009AA68A /* SceneDelegate.swift in Sources */,
+				06F68C93273B38D1009AA68A /* ViewControllerTableView.swift in Sources */,
+				06F68C91273B383A009AA68A /* CustomCellClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
