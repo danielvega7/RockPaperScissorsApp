@@ -26,9 +26,10 @@ class ViewControllerTableView: UIViewController, UITableViewDelegate, UITableVie
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! CustomCell
-        cell.imageViewOutlet.backgroundColor = UIColor.red
-        cell.userLabelOutlet.text = "Karson"
-       // cell.cpuLabelOutlet.text = "Danny"
+
+        cell.configure(color: UIColor.red, user: "Danny", cpu: "cpu")
+        
+        
         return cell
     }
    

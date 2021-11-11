@@ -13,10 +13,13 @@ public class CustomCell: UITableViewCell {
     @IBOutlet weak var userLabelOutlet: UILabel!
     @IBOutlet weak var cpuLabelOutlet: UILabel!
     
-    func configure(image: UIImage, user: String, cpu: String ) {
-       cpuLabelOutlet.text = cpu
-        imageViewOutlet.image = image
+
+    
+    func configure(color: UIColor, user: String, cpu: String ) {
+        
+        imageViewOutlet.backgroundColor = color
         userLabelOutlet.text = user
+        cpuLabelOutlet.text = cpu
        
         
     }
