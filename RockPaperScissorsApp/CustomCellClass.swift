@@ -25,5 +25,10 @@ public class CustomCell: UITableViewCell {
         userLabelOutlet.text = user
         cpuLabelOutlet.text = cpu
     }
-    
+    func configure(color: UIColor, user: String, cpu: String){
+        imageViewOutlet.backgroundColor = UIColor.red
+        print("red")
+    userLabelOutlet.text = user
+    cpuLabelOutlet.text = cpu
+    }
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class StaticStuff {
+public struct StaticStuff {
     public static var games = [GameInformation]()
 }
 

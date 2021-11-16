@@ -41,21 +41,30 @@ class ViewControllerTableView: UIViewController, UITableViewDelegate, UITableVie
         
        // let image = UIImage(named: "bipolarInfoGraphic")!
         
-        cell.configure(user: userChoice(userInput: StaticStuff.games[indexPath.row].userUse, row: indexPath.row), cpu: cpuChoice(cpuInput: StaticStuff.games[indexPath.row].cpuUse, row: indexPath.row))
+//        cell.configure(user: userChoice(userInput: StaticStuff.games[indexPath.row].userUse, row: indexPath.row), cpu: cpuChoice(cpuInput: StaticStuff.games[indexPath.row].cpuUse, row: indexPath.row))
+        
         
         if StaticStuff.games[indexPath.row].win {
-            cell.imageViewOutlet.image = UIImage(named: "greenColor")!
+//            cell.imageViewOutlet.image = UIImage(named: "greenColor")!
+            cell.configure(color: UIColor.green, user: userChoice(userInput: StaticStuff.games[indexPath.row].userUse, row: indexPath.row), cpu: cpuChoice(cpuInput: StaticStuff.games[indexPath.row].cpuUse, row: indexPath.row))
         }
         else if StaticStuff.games[indexPath.row].win == false{
-            cell.imageViewOutlet.image = UIImage(named: "redImage")!
+            cell.configure(color: UIColor.red, user: userChoice(userInput: StaticStuff.games[indexPath.row].userUse, row: indexPath.row), cpu: cpuChoice(cpuInput: StaticStuff.games[indexPath.row].cpuUse, row: indexPath.row))
         }
         else {
-            cell.imageViewOutlet.image = UIImage(named: "redImage")!
+            cell.configure(color: UIColor.red, user: userChoice(userInput: StaticStuff.games[indexPath.row].userUse, row: indexPath.row), cpu: cpuChoice(cpuInput: StaticStuff.games[indexPath.row].cpuUse, row: indexPath.row))
         }
         
         
         return cell
     }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            StaticStuff.games.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+    
     
     func userChoice(userInput: Int, row: Int) -> String {
         let userInput = StaticStuff.games[row].userUse
