@@ -20,6 +20,7 @@
 		06F68C91273B383A009AA68A /* CustomCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C90273B383A009AA68A /* CustomCellClass.swift */; };
 		06F68C93273B38D1009AA68A /* ViewControllerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */; };
 		06F68C95273E14F5009AA68A /* ViewControllerPlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C94273E14F5009AA68A /* ViewControllerPlayGame.swift */; };
+		06F68C97273F7DB1009AA68A /* InformationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F68C96273F7DB1009AA68A /* InformationClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		06F68C90273B383A009AA68A /* CustomCellClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellClass.swift; sourceTree = "<group>"; };
 		06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableView.swift; sourceTree = "<group>"; };
 		06F68C94273E14F5009AA68A /* ViewControllerPlayGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlayGame.swift; sourceTree = "<group>"; };
+		06F68C96273F7DB1009AA68A /* InformationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				06F68C92273B38D1009AA68A /* ViewControllerTableView.swift */,
 				06F68C94273E14F5009AA68A /* ViewControllerPlayGame.swift */,
 				06F68C90273B383A009AA68A /* CustomCellClass.swift */,
+				06F68C96273F7DB1009AA68A /* InformationClass.swift */,
 				06F68C61273B306D009AA68A /* Main.storyboard */,
 				06F68C67273B3072009AA68A /* Assets.xcassets */,
 				06F68C69273B3072009AA68A /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				06F68C66273B306D009AA68A /* RockPaperScissorsApp.xcdatamodeld in Sources */,
 				06F68C5E273B306D009AA68A /* SceneDelegate.swift in Sources */,
 				06F68C93273B38D1009AA68A /* ViewControllerTableView.swift in Sources */,
+				06F68C97273F7DB1009AA68A /* InformationClass.swift in Sources */,
 				06F68C91273B383A009AA68A /* CustomCellClass.swift in Sources */,
 				06F68C95273E14F5009AA68A /* ViewControllerPlayGame.swift in Sources */,
 			);

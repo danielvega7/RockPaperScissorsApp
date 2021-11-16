@@ -15,13 +15,15 @@ public class CustomCell: UITableViewCell {
     
 
     
-    func configure(color: UIColor, user: String, cpu: String ) {
+    func configure(image: UIImage, user: String, cpu: String ) {
         
-        imageViewOutlet.backgroundColor = color
+        imageViewOutlet.image = image
         userLabelOutlet.text = user
         cpuLabelOutlet.text = cpu
-       
-        
+    }
+    func configure(user: String, cpu: String) {
+        userLabelOutlet.text = user
+        cpuLabelOutlet.text = cpu
     }
     
 }
